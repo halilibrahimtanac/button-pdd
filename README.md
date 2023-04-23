@@ -15,12 +15,12 @@ npm install --save button-pdd
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'button-pdd'
+import { Button } from 'button-pdd'
 import 'button-pdd/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button type='primary'>Click Me</Button>
   }
 }
 ```

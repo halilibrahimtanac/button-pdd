@@ -7,3 +7,37 @@
   font-size: 2em;
   text-align: center;
 }
+
+.primary {
+  border: 0;
+  background-color: #007FFF;
+  padding: 10px;
+  color: white;
+  border-radius: 2.5px;
+}
+
+.default {
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  background-color: white;
+}
+
+.dashed {
+  border: 1px dashed #d1d1d1;
+  padding: 10px;
+  background-color: white;
+}
+
+.text {
+  border: 0;
+  background-color: white;
+  padding: 10px;
+}
+
+.link {
+  background-color: white;
+  border: 0;
+  padding: 10px;
+  color: #007FFF;
+}
+
